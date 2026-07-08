@@ -1,59 +1,124 @@
 <!doctype html>
 <html lang="cs">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Formence | Stavíme budoucnost</title>
   <meta name="description" content="Formence s.r.o. — rekonstrukce, rodinné domy, zámková dlažba a stavební práce po celé České republice.">
-  <link rel="icon" href="logo.png"><link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
-  <a class="brand" href="index.html">FORMENCE</a><button class="menu-btn" aria-label="Menu">☰</button>
-  <nav class="nav"><a href="realizace.html">Realizace</a><a href="#sluzby">Služby</a><a href="#spolecnost">O společnosti</a><a href="#kontakt">Kontakt</a></nav>
+  <a class="brand" href="index.html">FORMENCE</a>
+  <button class="menu-btn" aria-label="Menu">☰</button>
+  <nav class="nav">
+    <a href="#realizace">Realizace</a>
+    <a href="#sluzby">Služby</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
   <a class="phone" href="tel:+420774083500">+420 774 083 500</a>
 </header>
+
 <main>
-<section class="hero">
-  <div class="hero-bg"><img src="work-1.webp"><img src="work-3.webp"><img src="work-8.webp"><img src="work-6.webp"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-center">
-    <p class="pretitle">Působíme po celé České republice</p>
-    <h1>FORMENCE</h1><h2>Stavíme budoucnost.</h2>
-    <p class="services-line">Rekonstrukce • Rodinné domy • Zámková dlažba</p>
-    <div class="hero-actions"><a class="btn gold" href="#kontakt">Nezávazná poptávka</a><a class="btn outline" href="tel:+420774083500">Zavolat</a></div>
-  </div>
-</section>
+  <section class="hero">
+    <div class="slides">
+      <img src="work-1.webp" alt="">
+      <img src="work-3.webp" alt="">
+      <img src="work-8.webp" alt="">
+      <img src="work-6.webp" alt="">
+    </div>
+    <div class="shade"></div>
 
-<section class="statement"><h2>Kvalita je vidět v každém detailu.</h2><p>Formence s.r.o. realizuje stavební práce pro vlastníky rodinných domů. Zaměřujeme se na rekonstrukce, rodinné domy, zámkovou dlažbu a venkovní úpravy s důrazem na čistý výsledek a spolehlivou komunikaci.</p></section>
+    <div class="hero-content">
+      <p class="area">Působíme po celé České republice</p>
+      <h1>FORMENCE</h1>
+      <h2>Stavíme budoucnost.</h2>
+      <p class="line">Rekonstrukce • Rodinné domy • Zámková dlažba</p>
+      <div class="actions">
+        <a class="btn gold" href="#kontakt">Nezávazná poptávka</a>
+        <a class="btn dark" href="tel:+420774083500">Zavolat</a>
+      </div>
+    </div>
+  </section>
 
-<section class="three-photos"><img src="work-2.webp"><img src="work-4.webp"><img src="work-7.webp"></section>
+  <section class="intro">
+    <h2>Kvalita je vidět v každém detailu.</h2>
+    <p>Pomáháme majitelům rodinných domů s rekonstrukcemi, stavebními pracemi, venkovními úpravami a zámkovou dlažbou. Pracujeme po celé České republice.</p>
+  </section>
 
-<section class="section light" id="sluzby">
-  <div class="section-title"><span>Služby</span><h2>Co pro vás můžeme vytvořit</h2></div>
-  <div class="big-services">
-    <article><img src="work-3.webp"><div><h3>Rodinné domy</h3><p>Realizace stavebních prací a etap rodinných domů s jasným postupem od první domluvy až po předání.</p></div></article>
-    <article><img src="work-8.webp"><div><h3>Zámková dlažba</h3><p>Příjezdové cesty, chodníky, terasy, obrubníky, příprava podkladu a čisté dokončení detailů.</p></div></article>
-    <article><img src="work-6.webp"><div><h3>Rekonstrukce</h3><p>Rekonstrukce domů, dvorů a venkovních částí s důrazem na kvalitu, funkčnost a dlouhou životnost.</p></div></article>
-  </div>
-</section>
+  <section class="photo-row">
+    <img src="work-2.webp" alt="Pokládka dlažby">
+    <img src="work-4.webp" alt="Hotový dvůr">
+    <img src="work-7.webp" alt="Příjezdová cesta">
+  </section>
 
-<section class="section dark">
-  <div class="section-title"><span>Realizace</span><h2>Naše práce mluví za nás</h2></div>
-  <div class="project-cards">
-    <a href="realizace.html#projekt-dlazba"><img src="work-1.webp"><div><span>Průběh realizace</span><h3>Zámková dlažba u rodinného domu</h3></div></a>
-    <a href="realizace.html#projekt-dum"><img src="work-3.webp"><div><span>Průběh realizace</span><h3>Stavební práce na rodinném domě</h3></div></a>
-    <a href="realizace.html#galerie"><img src="work-8.webp"><div><span>Galerie</span><h3>Venkovní úpravy a příjezdové cesty</h3></div></a>
-  </div>
-</section>
+  <section class="services" id="sluzby">
+    <p class="small">Služby</p>
+    <h2>Co pro vás můžeme vytvořit</h2>
 
-<section class="section light" id="spolecnost">
-  <div class="about-grid"><div><span class="small">O společnosti</span><h2>Spolehlivý partner pro váš domov.</h2></div>
-  <div><p>Každý projekt je jiný. Přístup je vždy stejný: pečlivost, kvalitní provedení, férové jednání a důraz na detail.</p><ul><li>Individuální přístup ke každé zakázce</li><li>Kvalitní realizace a čisté dokončení</li><li>Spolehlivá komunikace od začátku do konce</li><li>Působnost po celé České republice</li></ul></div></div>
-</section>
+    <article class="service">
+      <img src="work-3.webp" alt="Rodinné domy">
+      <div>
+        <h3>Rodinné domy</h3>
+        <p>Stavební práce a realizace jednotlivých etap rodinných domů.</p>
+      </div>
+    </article>
 
-<section class="contact-section" id="kontakt"><div><span class="small">Kontakt</span><h2>Máte představu? Proměníme ji ve skutečnost.</h2><p>Pošlete nám stručný popis práce, lokalitu a fotografie místa. Ozveme se vám s dalším postupem.</p></div>
-  <div class="contact-box"><a href="tel:+420774083500">+420 774 083 500</a><a href="mailto:vk5072800@gmail.com">vk5072800@gmail.com</a><span>Celá Česká republika</span></div></section>
+    <article class="service reverse">
+      <img src="work-8.webp" alt="Zámková dlažba">
+      <div>
+        <h3>Zámková dlažba</h3>
+        <p>Příjezdové cesty, chodníky, terasy, obrubníky a kvalitní podklad.</p>
+      </div>
+    </article>
+
+    <article class="service">
+      <img src="work-6.webp" alt="Rekonstrukce">
+      <div>
+        <h3>Rekonstrukce</h3>
+        <p>Rekonstrukce domů, dvorů a venkovních částí s důrazem na detail.</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="projects" id="realizace">
+    <p class="small">Realizace</p>
+    <h2>Naše práce mluví za nás</h2>
+    <div class="grid">
+      <img src="work-1.webp" alt="">
+      <img src="work-2.webp" alt="">
+      <img src="work-3.webp" alt="">
+      <img src="work-4.webp" alt="">
+      <img src="work-5.webp" alt="">
+      <img src="work-6.webp" alt="">
+      <img src="work-7.webp" alt="">
+      <img src="work-8.webp" alt="">
+      <img src="work-9.webp" alt="">
+      <img src="work-10.webp" alt="">
+    </div>
+  </section>
+
+  <section class="contact" id="kontakt">
+    <div>
+      <p class="small">Kontakt</p>
+      <h2>Máte představu? Proměníme ji ve skutečnost.</h2>
+      <p>Pošlete stručný popis práce, lokalitu a fotografie místa. Ozveme se vám s dalším postupem.</p>
+    </div>
+    <div class="contact-box">
+      <a href="tel:+420774083500">+420 774 083 500</a>
+      <a href="mailto:vk5072800@gmail.com">vk5072800@gmail.com</a>
+      <span>Celá Česká republika</span>
+    </div>
+  </section>
 </main>
-<footer class="footer"><div><strong>FORMENCE</strong><p>Formence s.r.o. • Stavíme budoucnost.</p></div><a href="tel:+420774083500">Zavolat</a></footer>
-<a class="float-call" href="tel:+420774083500">☎</a><script src="script.js"></script>
-</body></html>
+
+<footer>
+  <strong>FORMENCE</strong>
+  <span>Formence s.r.o. • Stavíme budoucnost.</span>
+</footer>
+
+<a class="floating" href="tel:+420774083500">☎</a>
+<script src="script.js"></script>
+</body>
+</html>
